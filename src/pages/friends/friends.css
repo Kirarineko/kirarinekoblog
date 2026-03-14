@@ -1,0 +1,8 @@
+.friends-page{padding:24px}
+.friends-container{max-width:900px;margin:24px auto;padding:24px}
+.friends-intro{color:#fff;margin-bottom:16px}
+.friends-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:12px}
+.friend-item{background:rgba(255,255,255,0.04);border-radius:8px;padding:12px}
+.friend-link{text-decoration:none;color:inherit;display:flex;flex-direction:column}
+.friend-name{font-weight:700;font-size:18px}
+.friend-desc{font-size:14px;color:#e9e9e9}
