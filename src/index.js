@@ -8,12 +8,12 @@ import '@fontsource/noto-sans-sc/400.css';
 import '@fontsource/noto-sans-sc/500.css';
 import '@fontsource/noto-sans-sc/700.css';
 import PostDetail from './pages/PostDetail';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         /* 当网址是 "/" 时，显示 Homepage */
         <Route path="/" element={<Homepage />} />
@@ -22,7 +22,7 @@ root.render(
         /* :slug 就是那个“任意字符”，比如 react-use-state */
         <Route path="/post/:slug" element={<PostDetail />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 

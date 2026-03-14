@@ -1,7 +1,8 @@
 {  
-  "homepage": "https://kirarineko.github.io/kirarinekoblog",
+
   "name": "kirarinekoblog",
   "version": "0.1.0",
+  "homepage": "https://Kirarineko.github.io/kirarinekoblog",
   "private": true,
   "dependencies": {
     "@fontsource/noto-sans-sc": "^5.2.9",
